@@ -1,4 +1,13 @@
 import React from 'react';
+import lake from './img/lakecar.jpeg';
+import lake1 from './img/orange.png';
+import lake2 from './img/pine.png';
+import lake3 from './img/cro2.jpeg';
+import lake4 from './img/cro4.jpeg';
+import lake5 from './img/crou3.jpeg';
+import lake6 from './img/kiwi.jpeg';
+import lake7 from './img/lakecar.jpeg';
+
 
 export default function Store() {
 
@@ -17,21 +26,12 @@ export default function Store() {
  <a href="" className="dak" > <li class="list-group-item">Vegetables</li></a>
 
 </ul>
-
-
-
-
-
-
-
-
-
     <div className="container my-4">
   <div className="row ">
     <div className="col-12 col-md-3 ">
 
 <div className="class mt-2">
-        <img src="img/lakecar.jpeg" alt="sss" />
+        <img src={lake} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
             </div>
@@ -43,7 +43,7 @@ export default function Store() {
     <div className="col-12 col-md-3">
 
 <div className="class mt-2">
-        <img src="img/orange.png" alt="sss" />
+        <img src={lake1} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 
@@ -54,7 +54,7 @@ export default function Store() {
     </div>
     <div className="col-12 col-md-3">
 <div className="class mt-2">
-        <img src="img/pine.png" alt="sss" />
+        <img src={lake2} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 
@@ -64,7 +64,7 @@ export default function Store() {
     <button type="button" class="btn btn-primary">Add to cart</button></div>
     <div className="col-12 col-md-3">
 <div className="class mt-2">
-        <img src="img/cro2.jpeg" alt="sss" />
+        <img src={lake3} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 
@@ -82,7 +82,7 @@ export default function Store() {
     <div className="col-12 col-md-3 ">
 
 <div className="class mt-2">
-        <img src="img/cro4.jpeg" alt="sss" />
+        <img src={lake4} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 
@@ -95,7 +95,7 @@ export default function Store() {
     <div className="col-12 col-md-3">
 
 <div className="class mt-2">
-        <img src="img/crou3.jpeg" alt="sss" />
+        <img src={lake5} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 
@@ -106,7 +106,7 @@ export default function Store() {
     </div>
     <div className="col-12 col-md-3">
 <div className="class mt-2">
-        <img src="img/kiwi.jpeg" alt="sss" />
+        <img src={lake6} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 
@@ -117,7 +117,7 @@ export default function Store() {
     </div>
     <div className="col-12 col-md-3">
 <div className="class mt-2">
-        <img src="img/lakecar.jpeg" alt="sss" />
+        <img src={lake7} alt="sss" />
 
         <h2><a href=""> <button className="bh">Hello!</button>  </a></h2>
 

@@ -13,7 +13,7 @@ import './Footerr.css'
 import './Header.css'
 
 import Navbar from './Navbar'
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Modal from './Modal';
 
 

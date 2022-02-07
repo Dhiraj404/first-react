@@ -1,12 +1,14 @@
 import React from 'react';
-
+import cro4 from './img/cro4.jpeg';
+import cro2 from './img/cro2.jpeg'
+import cro3 from './img/crou3.jpeg'
 export default function Banner() {
   return (
             
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="img/cro4.jpeg" className="d-block w-100 hh" alt="sorry" />
+      <img src={cro4} className="d-block w-100 hh" alt="sorry" />
       <div class="carousel-caption d-none d-md-block carta">
         <h2 className="dhrka py-3">Start Now</h2>
         {/* <hr className="dhrka"/> */}
@@ -15,7 +17,7 @@ export default function Banner() {
       </div>
     </div>
     <div className="carousel-item">
-      <img src="img/cro2.jpeg" className="d-block w-100 hh" alt="Sorry!" />
+      <img src={cro2} className="d-block w-100 hh" alt="Sorry!" />
       <div class="carousel-caption d-none d-md-block carta">
         <h2 className="dhrka py-3">Organic Food</h2>
         {/* <hr className="dhrka"/> */}
@@ -24,7 +26,7 @@ export default function Banner() {
       </div>
     </div>
     <div className="carousel-item">
-      <img src="img/crou3.jpeg" className="d-block w-100 hh" alt="sorry" />
+      <img src={cro3} className="d-block w-100 hh" alt="sorry" />
       <div class="carousel-caption d-none d-md-block carta">
         <h2 className="dhrka py-3">Veg Shop</h2>
         {/* <hr className="dhrka"/> */}

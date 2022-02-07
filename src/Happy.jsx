@@ -1,5 +1,10 @@
 import React from 'react';
 import res from './imag/res.jpeg';
+
+import cro4 from './img/cro4.jpeg';
+import crou3 from './img/crou3.jpeg';
+import cro2 from './img/cro2.jpeg'
+
 export default function Happy() {
   return (
       
@@ -19,21 +24,21 @@ export default function Happy() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="img/cro4.jpeg" className="d-block w-100 asasac" alt="..." />
+      <img src={cro4} className="d-block w-100 asasac" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="img/crou3.jpeg" className="d-block w-100" alt="..." />
+      <img src={crou3} className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="img/cro2.jpeg" className="d-block w-100" alt="..." />
+      <img src={cro2} className="d-block w-100" alt="..." />
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>

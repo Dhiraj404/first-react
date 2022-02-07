@@ -1,4 +1,8 @@
 import React from 'react';
+import lake from './img/lakecar.jpeg';
+import lake1 from './img/orange.png';
+import lake2 from './img/pine.png';
+
 
 export default function Blog() {
   return (
@@ -11,7 +15,7 @@ export default function Blog() {
 
 <div className="classs mt-2">
       <span> <p className="position-absolute ak lk">Feb 05, 2022</p> </span>
-        <img src="img/lakecar.jpeg" alt="sss" />
+        <img src={lake} alt="sss" />
  <span>   <a href="" className="position-absolute asp lk ">    <h4>Erat partem accusam est.</h4>     </a></span>
             </div>
    
@@ -23,7 +27,7 @@ export default function Blog() {
 <div className="classs mt-2">
 <span> <p className="position-absolute akk lk">Feb 05, 2022</p> </span>
 
-        <img src="img/orange.png" alt="sss" />
+        <img src={lake1} alt="sss" />
         
 
         <span>   <a href="" className="position-absolute aspp lk">    <h4>Erat partem accusam est.</h4>     </a></span>
@@ -37,7 +41,7 @@ export default function Blog() {
 <div className="classs mt-2">
 <span> <p className="position-absolute akkk lk">Feb 05, 2022</p> </span>
 
-        <img src="img/pine.png" alt="sss" />
+        <img src={lake2} alt="sss" />
 
 
 

@@ -1,4 +1,11 @@
 import React from 'react';
+import orange from './img/orange.png';
+import orange1 from './img/apple.png';
+import orange2 from './img/leamon.png';
+import orange3 from './img/straw.png';
+import orange4 from './img/pine.png';
+
+
 
 export default function Products() {
   return (
@@ -10,15 +17,15 @@ export default function Products() {
     <div className="float-start ">
    
    
-    <img src="img/orange.png" alt="sory" className="res" />
+    <img src={orange} alt="sory" className="res" />
 <button className="position-absolute okxq btq">Dried</button>
      
      
-     <img src="img/apple.png" alt="sory" className="my-3" /> 
+     <img src={orange1} alt="sory" className="my-3" /> 
     <button className="position-absolute organic btq">Organic</button>
         
         
-        <img src="img/leamon.png" alt="sory" className="mx-2" />
+        <img src={orange2} alt="sory" className="mx-2" />
     <button className="position-absolute vegetables btq">Vegetables</button>
 
         </div>   
@@ -30,11 +37,11 @@ export default function Products() {
     <div className="col-md-6 col-12 my-2 sa">
 <div className="float-end ">
 
-    <img src="img/straw.png" alt="sory"/>
+    <img src={orange3} alt="sory"/>
     <button className="position-absolute fruits btq">Fruits</button>
 
 
-    <img src="img/pine.png" alt="sorry" className="my-2"/>
+    <img src={orange4} alt="sorry" className="my-2"/>
     <button className="position-absolute nuts btq">Nuts</button>
 
 

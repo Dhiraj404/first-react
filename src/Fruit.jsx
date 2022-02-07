@@ -1,4 +1,5 @@
 import React from 'react';
+import health from './img/fhealth.png'
 
 export default function Fruit() {
   return (
@@ -15,7 +16,7 @@ export default function Fruit() {
     <button type="button" className="btn btn-danger my-4 mx-5">Shop Now</button>
     </div>
     <div className="col-12 col-md-6 mx-auto ">
-    <img src="img/fhealth.png" className="heram"  alt="sas" />
+    <img src={health} className="heram"  alt="sas" />
     </div>
   </div>
 

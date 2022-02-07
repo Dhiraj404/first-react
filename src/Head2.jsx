@@ -1,12 +1,12 @@
 import React from 'react';
-
+import round from './img/round.png';
 export default function () {
   return (
 
     <div className="container-fluid  position-relative py-5 oho">
       <div className="row">
         <div className="col-12 col-md-6 d-none d-md-block">
-          <img src="img/round.png" alt="Sody" className="iim ms-5" />
+          <img src={round} alt="Sody" className="iim ms-5" />
         </div>
 
 

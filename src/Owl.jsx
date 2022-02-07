@@ -3,6 +3,17 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
+import leamon from './img/leamon.png'
+import leamon1 from './img/orange.png'
+import leamon2 from './img/pine.png'
+import leamon3 from './img/kiwi.jpeg'
+import leamon4 from './img/straw.png'
+import leamon5 from './img/kiwi.jpeg'
+import leamon6 from './img/fhealth.png'
+
+
+
+
 export default function Owl(){
 
   {
@@ -18,30 +29,30 @@ export default function Owl(){
 >
 
 <div class="item ">
-<img src="img/orange.png" alt="as" style={{height: '346px'}} />
+<img src={leamon1} alt="as" style={{height: '346px'}} />
 </div>
 <div class="item ">
-<img src="img/leamon.png" alt="as"style={{height: '346px'}} />
+<img src={leamon} alt="as"style={{height: '346px'}} />
 
 </div>
 <div class="item ">
-<img src="img/pine.png" alt="as" style={{height: '346px'}}   />
+<img src={leamon2} alt="as" style={{height: '346px'}}   />
 
 </div><div class="item ">
-<img src="img/kiwi.jpeg" alt="as" style={{height: '346px'}} />
+<img src={leamon3} alt="as" style={{height: '346px'}} />
 
 </div><div class="item ">
-<img src="img/straw.png" alt="as" style={{height: '346px'}} />
+<img src={leamon4} alt="as" style={{height: '346px'}} />
 
 </div>
 
 <div class="item ">
-<img src="img/kiwi.jpeg" alt="as"  style={{height: '346px'}}/>
+<img src={leamon5} alt="as"  style={{height: '346px'}}/>
 
 </div>
 
 <div class="item">
-<img src="img/fhealth.png" alt="as" style={{height: '346px'}} />
+<img src={leamon6} alt="as" style={{height: '346px'}} />
 
 </div>
 
