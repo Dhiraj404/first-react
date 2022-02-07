@@ -1,0 +1,100 @@
+  .classs {
+    height: 250px;
+    width: 350px;
+    
+
+
+
+}
+
+.classs img {
+    height: 100%;
+    width: 100%;
+
+
+    
+}
+
+.ak
+{
+    background: rgb(114, 108, 108);
+    padding:15px;
+    color: #fff;
+    top: 135px;
+border-radius: 9px;
+    left: 38px;
+
+}
+.akk
+{
+    background: rgb(114, 108, 108);
+    padding:15px;
+    color: #fff;
+    top: 135px;
+border-radius: 9px;
+    left: 478px;
+
+}
+
+.akkk
+{
+    background: rgb(114, 108, 108);
+    padding:15px;
+    color: #fff;
+    top: 135px;
+border-radius: 9px;
+    left: 905px;
+
+}
+
+.asp
+{
+    left: 60px;
+    /* right: 20; */
+    bottom: 50px;
+    text-decoration: none;
+    padding:9px;
+    background: white;
+    color: black;
+    border-radius: 9px;
+}
+.asp:hover, .aspp:hover
+    {
+       color:rgb(76, 0, 255)
+    }
+
+    .aspp
+    {
+        left: 490px;
+
+    bottom: 50px;
+        text-decoration: none;
+        padding:9px;
+        background: white;
+        color: black;
+        border-radius: 9px;  
+    }
+
+    .asppp
+    {
+
+        left: 920px;
+        bottom: 50px;
+        text-decoration: none;
+        padding:9px;
+        background: white;
+        color: black;
+        border-radius: 9px;  
+    }
+
+
+
+    
+@media only screen and (max-width: 600px) {
+   
+    .lk
+    {
+        display:none;
+    }
+
+  }

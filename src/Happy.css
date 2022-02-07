@@ -1,0 +1,25 @@
+.eatsas
+{
+    opacity: 0.9;
+    background-attachment: fixed;
+    padding: 150px 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hakka
+{
+    max-height: 100%;
+    width: 50%;
+    margin: auto;
+}
+.asasac
+{
+    height: 305px;
+
+}
+.hehea:after {
+    content: "Happy Clients";
+    color: rgb(0, 255, 55) ;
+  }
+

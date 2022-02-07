@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+
+@media only screen and (max-width: 600px) {
+    .res {
+    width: 355px;
+    }
+    .btq
+    {
+        display:none;
+    }
+
+    .sa
+    {
+        margin-left: 39px;
+
+    }
+  }
+
+  .ai
+  {
+    font-family: 'Comforter', cursive;
+    font-size: 70px;
+  }
+  .ai span
+  {
+    color: #13f757;
+  }
+
+
+  .okxq
+  {
+    left: 391px;
+    bottom: 382px;
+  }
+
+  .organic
+  {
+    left: 194px;
+    bottom: 32px;
+  }
+
+  .vegetables{
+    left: 539px;
+    top: 879px;
+  }
+
+  .nuts
+  {
+    left: 979px;
+    top: 865px;
+  }
+
+  .fruits{
+    left: 968px;
+    top: 320px;
+  }
+  .btq{
+      padding: 5px;
+      border: none;
+      border-radius: 9px;
+  }
+  .btq:hover
+  {
+        background-color: #13f757;
+        color: blue;
+     
+  }

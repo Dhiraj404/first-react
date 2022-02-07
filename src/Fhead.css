@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aa
+{
+    background: #ADCE89;
+    border-radius:20px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+
+}
+.aa img {
+    height: 400px;
+}
+
+.aa h5 {
+    padding: 10px 0 0 0;
+}
+.pos
+{
+    bottom: 59px;
+    z-index: 1;
+}

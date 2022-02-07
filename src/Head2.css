@@ -1,0 +1,15 @@
+.oho
+{
+    background: #F7F7F7;
+    bottom: 101px;
+}
+
+.iim
+{
+    width: 596px;
+}
+.paxi::after
+{
+    content: "Shop";
+    color: rgb(0, 255, 98);
+}

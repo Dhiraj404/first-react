@@ -1,0 +1,10 @@
+.aaran
+{
+  background: #E4F3E5;
+
+}
+@media only screen and (max-width: 600px) {
+    .heram {
+     width: 350px;
+    }
+  }

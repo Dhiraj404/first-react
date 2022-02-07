@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mak
+{
+     border-right: 2px solid red;
+        
+        font-size:12px;
+        font-weight:bolder;
+        text-decoration: none;
+}
+.mak li {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.mak:last-child {
+    border: none;
+
+  }
+
+.dak
+{
+
+    font-weight:bolder;
+     text-decoration: none;
+}
+
+  .dak li
+  {
+    border: none;
+   font-size: 12px;
+  }
+
+  .list-group-item:hover 
+  {
+      color: rgb(68, 0, 255);
+      background: red;
+        font-size: 15px;  
+  }
+
+
+
+
+
+
+
+  .class {
+    height: 250px;
+    width: 250px;
+    
+    /* background: rgb(255, 0, 0); */
+    margin: auto;
+    position: relative;
+    /* border: 2px solid red; */
+    overflow: hidden;
+
+
+}
+
+.class img {
+    height: 100%;
+    width: 100%;
+    transition: 0.9s ease;
+    /* background-color: red; */
+    
+}
+
+.class:hover img {
+    
+    
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+.class h2 {
+    position: absolute;
+    top: 0;
+    color: rgb(243, 0, 0);
+    transform: translate(-400px, -461px);
+    transition: 0.9s;
+}
+
+.class:hover h2 {
+    transform: translate(70px, 90px);
+}
+.class h2 a{
+    color: rgb(0, 255, 98);
+    text-decoration: none;
+    /* opacity: 0.7; */
+}
+
+.bh
+{
+    padding: 9px;
+    border-radius: 5px;
+    border:none;
+    opacity: 0.8;
+background: rgb(0, 255, 115);
+}
+  
+.fo
+{
+    font-weight: bolder;
+    font-size:19px
+
+}
