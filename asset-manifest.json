@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/first-react/static/css/main.dd2cf897.css",
+    "main.js": "/first-react/static/js/main.6653103e.js",
+    "static/media/round.png": "/first-react/static/media/round.6ca34298f8ec1cc57da5.png",
+    "static/media/fhealth.png": "/first-react/static/media/fhealth.2cfdf3491c7e3b643e78.png",
+    "static/media/orange.png": "/first-react/static/media/orange.0999837ccbf5c9d11dee.png",
+    "static/media/res.jpeg": "/first-react/static/media/res.3491b6cfeab0e808910a.jpeg",
+    "static/media/pine.png": "/first-react/static/media/pine.67e863218e815a2210e4.png",
+    "static/media/crou3.jpeg": "/first-react/static/media/crou3.ff825e655bb1df36c137.jpeg",
+    "static/media/lakecar.jpeg": "/first-react/static/media/lakecar.fbb459449d60f96367f7.jpeg",
+    "static/media/cro2.jpeg": "/first-react/static/media/cro2.54172827b4d5b46929a7.jpeg",
+    "static/media/leamon.png": "/first-react/static/media/leamon.31d12025c3e06ea11788.png",
+    "static/media/kiwi.jpeg": "/first-react/static/media/kiwi.a2d63dc4cb11a6d5eba1.jpeg",
+    "static/media/apple.png": "/first-react/static/media/apple.2d937ec57fa23ef744c1.png",
+    "static/media/cro4.jpeg": "/first-react/static/media/cro4.a60c111e021479f60d7f.jpeg",
+    "static/media/straw.png": "/first-react/static/media/straw.c55173eface01f13a9a4.png",
+    "static/media/fruits.png": "/first-react/static/media/fruits.2c794912487214674423.png",
+    "static/media/fruits-1.png": "/first-react/static/media/fruits-1.cc1fa6cea96ad79d93a4.png",
+    "static/media/fruits-2.png": "/first-react/static/media/fruits-2.3466cdb77ae4c89b5979.png",
+    "index.html": "/first-react/index.html",
+    "main.dd2cf897.css.map": "/first-react/static/css/main.dd2cf897.css.map",
+    "main.6653103e.js.map": "/first-react/static/js/main.6653103e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd2cf897.css",
+    "static/js/main.6653103e.js"
+  ]
+}
